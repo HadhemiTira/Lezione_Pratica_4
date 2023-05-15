@@ -1,0 +1,96 @@
+body {
+    margin:0;
+    background-color: white;
+    font-family: 'rubik';
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: auto;
+    } 
+
+    header a {
+        text-decoration: none;
+        color: black;
+        font-family: 'yanone kaffeesatz',rubik;
+        font-weight: normal;
+    }
+
+    header p {
+        font-size: 56px;
+        margin: 0;
+        font-weight: normal;
+        font-family: 'yanone kaffeestaz';
+    }
+
+    header nav a {
+        
+        color: black;
+        font-family: 'rubik';
+        font-weight: normal;
+        font-size: 32px;
+
+    }
+
+    header nav ul {
+        text-decoration: none;
+        list-style-type: none;
+       
+    }    
+
+
+    header a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+        
+    main {
+        padding: 20px;
+    }
+
+
+    main p {
+    font-family: 'rubik';
+    width: 30%;
+    font-size: 50px;
+    font-weight: 500;
+    }
+
+    main ul {
+        list-style-type: none;
+        font-family: 'rubik';
+        font-weight: lighter;
+        font-size: 20px;
+        padding: 0;
+    } 
+
+    main a {
+    color: black;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: black;
+    font-weight: 400;
+}
+
+div.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+}
+    
+
